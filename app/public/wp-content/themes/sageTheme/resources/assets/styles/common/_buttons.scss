@@ -1,0 +1,12 @@
+.btn-secondary {
+    @include button-variant(#fff, $green, $green);
+  }
+  
+  .btn-red {
+    @include button-variant(#fff, $red, $red);
+  }
+  
+  .btn-blue {
+    @include button-variant(#fff, $blue, $blue);
+  }
+  

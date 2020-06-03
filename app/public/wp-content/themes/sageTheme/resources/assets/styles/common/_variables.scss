@@ -1,0 +1,19 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+// Colors
+$green:#2ecc40;
+$red:#ff4136;
+$blue:#0074d9;
+
+$theme-colors: (
+  primary: $green
+);
+
+$headings-color:     theme-color("primary");
+$table-border-color: theme-color("primary");
+$card-border-color:  theme-color("primary");
